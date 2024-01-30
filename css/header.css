@@ -1,0 +1,25 @@
+header{
+    background-color: #5C5141;
+    border-radius: 0 0 10px 10px;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navHeader{
+    display: none;
+}
+
+.mainConsultationHeaderBtn{
+    display: none;
+}
+
+.wrapperHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainLogo, .burgerMenu{
+    fill: #fff;
+}

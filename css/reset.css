@@ -1,0 +1,94 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Shango';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Shango-Regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Shango';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Shango-Medium.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Shango';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Shango-Bold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+scroll-behavior: smooth; /* Для плавного скролла по якорям и по сайту */
+font-family: 'Montserrat';
+}
+
+section{
+  position: relative; /* делаем позиционирование в секциях, удобно для размещения абсолютных блоков */
+  margin-bottom: 90px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul { /* Убираем лишние отступы, как внутренние, так и внешние */
+  margin: 0;
+  padding: 0;
+} 
+
+h1, h2, h3, h4, h5, h6{
+  text-transform: uppercase;
+  font-family: 'Shango';
+}
+
+ul, ol {
+  list-style: none; /* Убираем базовые цифры и пометки списков */
+}
+
+a {
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+button {
+  cursor: pointer; /* Добавляем палец при наведении на кнопку */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

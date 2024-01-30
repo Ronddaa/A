@@ -1,0 +1,108 @@
+.titleAboutIntensive{
+    color: #5C5141;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aboutMainText{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #5C5141;
+    line-height: 2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.imgBetweenText{
+    display: inline-block;
+    max-width: 70px;
+    max-height: 35px;
+    align-items: center;
+    margin: auto;
+}
+
+.imgAboutIntensive{
+    object-fit: cover;
+    object-position:bottom;
+    border-radius: 10px;
+    max-height: 255px;
+    margin-bottom: 15px;
+}
+
+.imgAboutIntensive2{
+    object-position: center;
+}
+
+.womanText{
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.womanText:first-child{
+    margin: 0px 20px 0px 0; 
+}
+
+.teacherMe:last-child{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: right;
+}
+
+.teacherMe{
+    position: relative;
+}
+
+.womanTextIn{
+    color: #872330;
+    font-family: 'Second Road';
+    font-size: 28px;
+}
+
+.teacherMe:first-child::before{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #5C5141;
+    bottom: -10px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.teacherMe:first-child::after{
+    position: absolute;
+    content: '';
+    width: 99%;
+    height: 0.5px;
+    background-color: #5C5141;
+    bottom: -8px;
+    left: 30px;
+    object-fit: cover;
+}
+
+.teacherMe:last-child::before{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #5C5141;
+    bottom: -10px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+.teacherMe:last-child::after{
+    position: absolute;
+    content: '';
+    width: 105%;
+    height: 0.5px;
+    background-color: #5C5141;
+    bottom: -8px;
+    right: 20px;
+    object-fit: cover;
+}

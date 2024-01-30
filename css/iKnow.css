@@ -1,0 +1,16 @@
+.iKnow{
+    background-image:linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/iKnowSection.webp);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.iJnowText{
+    font-size: 14px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Montserrat';
+}
