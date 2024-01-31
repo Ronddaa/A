@@ -5,4 +5,26 @@
     margin-bottom: 20px;
 }
 
+.titleWillaFrst{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #5C5141;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.textAboutWillaFrst{
+    color: #5C5141;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textAboutWillaFrst span{
+    color: #872330;
+    font-weight: 500;
+}
+
+.willaIMG{
+    border-radius: 10px;
+}

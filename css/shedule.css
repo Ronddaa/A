@@ -55,3 +55,14 @@ background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) )
     background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
      url(../img/shedule7.webp);
 }
+
+.titleDateCard{
+    font-size: 36px;
+    color: #fff;
+}
+
+.textDateCard{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
