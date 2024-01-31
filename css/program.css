@@ -1,0 +1,146 @@
+.titleProgram{
+    font-size: 26px;
+    color: #5C5141;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wrapperProgramCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.programCard{
+    width: 159px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.titleProgramCard{
+    font-family: 'Montserrat';
+    text-transform: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.programCard:first-child{
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(2){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(3){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program3.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(4){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program4.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(5){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program5.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(6){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program6.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(7){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program7.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(8){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program8.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(9){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program9.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(10){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program10.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(11){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program11.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(12){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program12.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(13){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program13.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(14){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program14.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:nth-child(15){
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program15.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.programCard:last-child{
+    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
+     url(../img/program16.webp);
+    background-size: cover;
+    background-position: center;
+}
+
