@@ -1,0 +1,27 @@
+.wrapperForm{
+    text-align: center;
+}
+
+.formtext{
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    max-width: 300px;
+}
+
+.jfIMG{
+    display: inline-block;
+    max-width: 50px;
+    max-height: 25px;
+}
+
+.formBtn{
+    padding: 13px 35px;
+    color: #140B03;
+    font-weight: 600;
+    background-color: #BDC3AF;
+    border: none;
+    border-radius: 10px;
+}
