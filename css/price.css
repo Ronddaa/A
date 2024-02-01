@@ -1,0 +1,90 @@
+.wrapperPrice{
+    text-align: center;
+}
+
+.titlePrice{
+    text-align: center;
+    font-size: 26px;
+    color: #5C5141;
+    margin-bottom: 25px;
+}
+
+.wrapperPriceCard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.priceCard{
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.priceBefore{
+    background-color: #5C5141;
+    color: #F5F9FC;
+}
+
+.textPriceCard{
+    padding: 20px 0;
+    max-width: 80%;
+    margin: 0px auto;
+    display: flex;
+    gap: 12px;
+    text-align: left;
+}
+
+.titleCashPrice{
+    font-size: 24px;
+}
+
+.titlePriceCardBefore{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+
+.titleCashPriceBefore{
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+}
+
+.priceAfter{
+    border: 1px solid #5C5141;
+    border-radius: 10px;
+}
+
+.titlePriceCardAfter, .titleCashPriceAfter{
+    padding: 15px 0;
+    text-align: center;
+    color: #5C5141;
+}
+
+.titlePriceCardAfter{
+    border-bottom: 1px solid #5C5141;
+}
+
+.titleCashPriceAfter{
+    border-top: 1px solid #5C5141;
+}
+
+.wrapperPriceCard{
+    margin-bottom: 30px;
+}
+
+.textHurryUp{
+    text-transform: uppercase;
+    color: #5C5141;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reservedBtn{
+    padding: 13px 35px;
+    color: #140B03;
+    font-weight: 600;
+    background-color: #BDC3AF;
+    border: none;
+    border-radius: 10px;
+}
