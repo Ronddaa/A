@@ -1,4 +1,81 @@
 footer{
     background-color: #5C5141;
     padding: 40px 0;
+    text-align: center;
+}
+
+.mainLogoFooter{
+    max-width: 133px;
+    max-height: 92px;
+    margin-bottom: 40px;
+}
+
+.wrapperNavLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.linkToAnchor{
+    color: #F5F9FC;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapperContactInfo{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+}
+
+.linkToContact{
+    color: #F5F9FC;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapperContactInfoSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.linksToSocials{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialLinkFooter{
+    fill: #F5F9FC;
+}
+
+@media (min-width:1158px){
+    .wrapperFooter{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainLogoFooter{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .wrapperNavLinks{
+        text-align: left;
+    }
+
+    .navLink, .linkToContact{
+        font-size: 18px;
+    }
+
+    .wrapperContactInfo{
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .linksToSocials{
+        justify-content: right;
+    }
 }

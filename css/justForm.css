@@ -25,3 +25,12 @@
     border: none;
     border-radius: 10px;
 }
+
+.formtext{
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.formBtn{
+    font-size: 16px;
+}

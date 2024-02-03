@@ -65,6 +65,12 @@ section{
   margin-bottom: 90px;
 }
 
+@media (min-width:980px){
+  section{
+    margin-bottom: 150px;
+  }
+}
+
 h1, h2, h3, h4, h5, h6, p, a, ul { /* Убираем лишние отступы, как внутренние, так и внешние */
   margin: 0;
   padding: 0;

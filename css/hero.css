@@ -81,3 +81,55 @@
 .bookingTextBtn{
     text-transform: uppercase;
 }
+
+@media (min-width: 1158px){
+    .hero{
+        padding: 104px 0 160px; 
+    }
+
+    .mainTitle{
+        font-size: 38px;
+        max-width: 100%;
+    }
+
+    .scndMainTitle{
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+
+    .textUnderMainTitle{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .locationText{
+        font-size: 20px;
+    }
+
+    .bookingText{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .wrapperMainConsultation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .mainConsultationBtn{
+        font-size: 16px;
+        margin: auto 0;
+    }
+
+    .bookingTextBtn{
+        max-width: 150px;
+        text-transform: none;
+    }
+
+    .bookingTextBtn span{
+        font-weight: 600;
+    }
+}

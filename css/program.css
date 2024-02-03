@@ -144,3 +144,9 @@
     background-position: center;
 }
 
+@media (min-width:1158px){
+    .titleProgram{
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+}

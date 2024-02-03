@@ -106,3 +106,100 @@
     right: 20px;
     object-fit: cover;
 }
+
+@media (min-width: 1158px){
+    .titleAboutIntensive{
+        font-size: 38px;
+        margin-bottom: 50px;
+    }
+
+    .aboutMainText{
+        font-size: 28px;
+        margin-bottom: 80px;
+    }
+
+    .teacherMe{
+        display: flex;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .womanText{
+        font-size: 24px;
+    }
+
+    .womanTextIn{
+        font-size: 54px;
+    }
+
+    .womanText{
+        max-width: 480px;
+    }
+
+    .teacherMe:last-child{
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    .wrapperTeacher{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .teacherMe:first-child::before, .teacherMe:first-child::after{
+        display: none;
+    }
+
+    .teacherMe:last-child::before, .teacherMe:last-child::after{
+        display: none;
+    }
+
+    .womanText:first-child::before{
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 5px;
+        background-color: #5C5141;
+        bottom: 32%;
+        right: 30.8%;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .womanText:first-child::after{
+        position: absolute;
+        content: '';
+        width: 80%;
+        height: 0.5px;
+        background-color: #5C5141;
+        bottom: 32.8%;
+        right: 30.8%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .womanText:last-child::before{
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 5px;
+        background-color: #5C5141;
+        bottom: 32%;
+        left: 30.8%;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .womanText:last-child::after{
+        position: absolute;
+        content: '';
+        width: 80%;
+        height: 0.5px;
+        background-color: #5C5141;
+        bottom: 32.8%;
+        left: 30.8%;
+        object-fit: cover;
+        z-index: -1;
+    }
+}

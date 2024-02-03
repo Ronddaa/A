@@ -25,6 +25,8 @@
 
   .container{ /* Контейнер для планшетной версии */
     max-width: 768px;
+    font-size: 16px;
+    padding: 0 140px;
   }
 }
 

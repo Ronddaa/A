@@ -18,8 +18,43 @@ header{
 .wrapperHeader{
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
 
 .mainLogo, .burgerMenu{
     fill: #fff;
+}
+
+@media (min-width: 1158px){
+    .burgerMenu{
+        display: none;
+    }   
+
+    .navHeader{
+        display: flex;
+        align-items: center;
+    }
+
+    .mainNavHeader{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .mainNavList{
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .mainConsultationHeaderBtn{
+        display: block;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background-color: transparent;
+        color: #fff;
+        max-width: 154px;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
 }

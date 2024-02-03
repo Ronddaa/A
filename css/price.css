@@ -88,3 +88,35 @@
     border: none;
     border-radius: 10px;
 }
+
+@media (min-width:1158px){
+    .titlePrice{
+        font-size: 38px;
+        margin-bottom: 50px;
+    }
+
+    .wrapperPriceCard{
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    .titlePriceCard{
+        font-size: 28px;
+    }
+
+    .textPriceCard{
+        font-size: 18px;
+    }
+
+    .titleCashPrice{
+        font-size: 34px;
+    }
+
+    .textHurryUp{
+        margin-bottom: 30px;
+    }
+
+    .reservedBtn{
+        font-size: 16px;
+    }
+}

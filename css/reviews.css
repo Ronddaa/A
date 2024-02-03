@@ -1,3 +1,8 @@
+.reviews{
+    background-color: #BDC3AF;
+    border-radius: 10px;
+}
+
 .titleReviews{
     font-size: 26px;
     color: #5C5141;
@@ -7,4 +12,16 @@
 
 .reviewsIMG{
     border-radius: 10px;
+}
+
+.titleUserComment{
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5141;
+}
+
+@media (min-width:1158px){
+    .titleReviews{
+        font-size: 38px;
+    }
 }
