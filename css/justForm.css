@@ -23,14 +23,21 @@
     font-weight: 600;
     background-color: #BDC3AF;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px;transition: 0.3s;
 }
 
-.formtext{
-    font-size: 28px;
-    margin-bottom: 50px;
+.formBtn:hover, .formBtn:focus{
+    background-color: #E0E6D3;
 }
 
-.formBtn{
-    font-size: 16px;
+@media (min-width:1158px){
+    .formtext{
+        font-size: 28px;
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+
+    .formBtn{
+        font-size: 16px;
+    }
 }

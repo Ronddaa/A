@@ -87,6 +87,11 @@
     background-color: #BDC3AF;
     border: none;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.reservedBtn:hover, .reservedBtn:focus{
+    background-color: #E0E6D3;
 }
 
 @media (min-width:1158px){

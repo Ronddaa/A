@@ -21,6 +21,7 @@
     color: #000;
     border-radius: 10px;
     border: none;
+    transition: 0.3s;
 }
 
 @media (min-width:1158px){
@@ -31,5 +32,13 @@
     .wrapperPhotoWithInst{
         display: flex;
         gap: 40px;
+    }
+
+    .linkToInstBtn{
+        font-size: 16px;
+    }
+
+    .linkToInstBtn:hover, .linkToInstBtn:focus{
+        background-color: #E0E6D3;
     }
 }

@@ -49,6 +49,11 @@ footer{
 
 .socialLinkFooter{
     fill: #F5F9FC;
+    transition: 0.3s;
+}
+
+.socialLinkFooter:hover, .socialLinkFooter:focus{
+    fill: #BDC3AF;
 }
 
 @media (min-width:1158px){
