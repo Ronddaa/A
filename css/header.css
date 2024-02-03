@@ -41,9 +41,15 @@ header{
         align-items: center;
     }
 
-    .mainNavList{
+    .anchorNavHeader{
         font-size: 16px;
         color: #fff;
+        padding: 10px 0;
+        transition: 0.3s;
+    }
+
+    .anchorNavHeader:hover{
+        color: #b9b9b9;
     }
 
     .mainConsultationHeaderBtn{
@@ -56,5 +62,12 @@ header{
         font-weight: 500;
         font-size: 12px;
         text-transform: uppercase;
+        transition: 0.3s;
+        letter-spacing: 1.2px;
+    }
+
+    .mainConsultationHeaderBtn:hover, .mainConsultationHeaderBtn:focus{
+        background-color: #E0E6D3;
+        color: #000;
     }
 }

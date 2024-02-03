@@ -76,6 +76,11 @@
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.mainConsultationBtn:hover, .mainConsultationBtn:focus{
+    background-color: #E0E6D3;
 }
 
 .bookingTextBtn{
