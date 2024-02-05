@@ -1,75 +1,83 @@
-.shedule{
-    background-color: #5C5141;
-    border-radius: 10px;
-    padding: 30px 0;
+.shedule {
+  background-color: #5c5141;
+  border-radius: 10px;
+  padding: 30px 0;
 }
 
-.titleShedule{
-    text-align: center;
-    font-size: 26px;
-    color: #BDC3AF;
-    margin-bottom: 20px;
+.titleShedule {
+  text-align: center;
+  font-size: 26px;
+  color: #bdc3af;
+  margin-bottom: 20px;
 }
 
-.dateList{
-    padding: 135px 0;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    border-radius: 10px;
-    width: 250px;
-    margin: 0 auto;
+.dateList {
+  padding: 135px 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  border-radius: 10px;  
+  margin: 0 auto 40px;
 }
 
-.dateList:first-child{
-    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/shedule1.webp);
+.dateList:first-child {
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/shedule1.webp);
 }
 
-.dateList:nth-child(2){
-background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/shedule2.webp);
+.dateList:nth-child(2) {
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/shedule2.webp);
 }
 
-.dateList:nth-child(3){
-    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/shedule3.webp);
+.dateList:nth-child(3) {
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/shedule3.webp);
 }
 
-.dateList:nth-child(4){
-    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/shedule4.webp);
+.dateList:nth-child(4) {
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/shedule4.webp);
 }
 
-.dateList:nth-child(5){
-    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/shedule5.webp);
+.dateList:nth-child(5) {
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/shedule5.webp);
 }
 
-.dateList:nth-child(6){
-    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/shedule6.webp);
+.dateList:nth-child(6) {
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/shedule6.webp);
 }
 
-.dateList:last-child{
-    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/shedule7.webp);
+.dateList:last-child {
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/shedule7.webp);
 }
 
-.titleDateCard{
-    font-size: 36px;
-    color: #fff;
+.titleDateCard {
+  font-size: 36px;
+  color: #fff;
 }
 
-.textDateCard{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 500;
+.textDateCard {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
 }
 
-@media (min-width:1158px){
-    .titleShedule{
-        font-size: 38px;
-        margin-bottom: 40px;
-    }
+.shedule {
+    --swiper-theme-color: #BDC3AF;
+}
+
+.shedule > .container > .swiper-button-next, .shedule > .container > .swiper-button-prev{
+    width: 16px;
+    height: 18px;
+}
+
+@media (min-width: 1158px) {
+  .titleShedule {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
 }

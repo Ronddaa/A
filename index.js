@@ -1300,7 +1300,7 @@ return ee.use(ue),ee}();
 
 const sheduleSwiper = new Swiper('.swiper', {
     direction: 'horizontal',
-  loop: true,
+    loop: false,
 
   // Navigation arrows
   navigation: {
@@ -1317,5 +1317,7 @@ const sheduleSwiper = new Swiper('.swiper', {
     slidesPerView: 1,
 
     spaceBetween: 20,
+
+    centeredSlides: 1,
 
 })
