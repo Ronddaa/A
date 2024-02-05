@@ -6,11 +6,25 @@
 }
 
 .imgMe {
-  max-height: 318px;
-  max-width: 234px;
-  object-fit: cover;
-  border-radius: 10px;
+  min-height: 318px;
+  min-width: 234px;
   margin: 0 auto 20px;
+  background-size: cover;
+  background-position: center;
+  animation: backgroundAnimation 10s infinite alternate;
+  border-radius: 10px;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url('../img/me1.webp');
+  }
+  50% {
+    background-image: url('../img/me2.webp');
+  }
+  100% {
+    background-image: url('../img/me3.webp');
+  }
 }
 
 .aboutMeList{

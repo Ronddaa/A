@@ -16,8 +16,9 @@
 
 .titleUserComment{
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     color: #5C5141;
+    font-family: 'Montserrat';
 }
 
 @media (min-width:1158px){
