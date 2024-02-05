@@ -1314,7 +1314,7 @@ const sheduleSwiper = new Swiper('.swiper', {
         dynamicBullet: true,
   },
 
-    slidesPerView: 1.5,
+    slidesPerView: 1,
 
     spaceBetween: 20,
 
