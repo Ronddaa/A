@@ -1316,7 +1316,7 @@ const sheduleSwiper = new Swiper('.swiper', {
 
     slidesPerView: 1,
 
-    spaceBetween: 20,
+    spaceBetween: 25,
 
     centeredSlides: 1,
 
