@@ -13,6 +13,7 @@
 @import url(./program.css);
 @import url(./reviews.css);
 @import url(./shedule.css);
+@import url(./swiper-bundle.min.css);
 
 .container{ /* Контейнер для моб. версии */
   max-width: 375px;

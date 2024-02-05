@@ -83,10 +83,10 @@
             </div>
         </section>
         <section class="shedule" id="shedule">
-            <div class="container">
+            <div class="container swiper">
                 <h2 class="titleShedule">розклад ІНТЕНСИВУ </h2>
-                <ul class="sheduleList">
-                    <li class="dateList">
+                <ul class="sheduleList swiper-wrapper">
+                    <li class="dateList swiper-slide">
                         <h3 class="titleDateCard">17.04</h3>
                         <p class="textDateCard">заїзд</p>
                     </li>
@@ -115,6 +115,9 @@
                         <p class="textDateCard">виїзд</p>
                     </li>
                 </ul>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <section class="program" id="program">
@@ -396,5 +399,8 @@
             </ul>
         </div>
     </footer>
+
+    <script type="module" src="index.js"></script>
+    <script type="module" src="swiper-bundle.min.js" defer></script>
 </body>
 </html>
