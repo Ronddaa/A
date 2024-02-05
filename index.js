@@ -1312,6 +1312,10 @@ const sheduleSwiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         clickable: true,
         dynamicBullet: true,
-  }
+  },
+
+    slidesPerView: 1.5,
+
+    spaceBetween: 20,
 
 })
