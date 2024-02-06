@@ -1,101 +1,135 @@
-.titleOurWilla{
-    font-size: 26px;
-    text-align: center;
-    color: #5C5141;
-    margin-bottom: 20px;
+.titleOurWilla {
+  font-size: 26px;
+  text-align: center;
+  color: #5c5141;
+  margin-bottom: 20px;
 }
 
-.titleWillaFrst{
-    font-size: 18px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    color: #5C5141;
-    text-align: center;
-    margin-bottom: 10px;
+.titleWillaFrst {
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #5c5141;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.textAboutWillaFrst{
-    color: #5C5141;
-    text-align: center;
-    margin-bottom: 30px;
+.textAboutWillaFrst {
+  color: #5c5141;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.textAboutWillaFrst span{
-    color: #872330;
-    font-weight: 500;
+.textAboutWillaFrst span {
+  color: #872330;
+  font-weight: 500;
 }
 
-.willaIMG{
-    border-radius: 10px;
+.willaIMG {
+  border-radius: 10px;
+  min-width: 250px;
+  min-height: 350px;
+  object-fit: cover;
 }
 
-.wrapperWillaPhoto{
-    margin-bottom: 50px;
+.wrapperWillaPhoto {
+  margin-bottom: 50px;
 }
 
-.titleWillaPlus{
-    font-family: 'Second Road';
-    text-transform: none;
-    text-align: center;
-    font-weight: 400;
-    color: #872330;
-    font-size: 36px;
-    margin-bottom: 20px;
+.titleWillaPlus {
+  font-family: "Second Road";
+  text-transform: none;
+  text-align: center;
+  font-weight: 400;
+  color: #872330;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
-.herePlus{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    color: #000;
-    font-size: 16px;
-    margin-bottom: 40px;
-    position: relative;
-    margin-left: 22%;
+.herePlus {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 40px;
+  position: relative;
+  margin-left: 22%;
 }
 
-.herePlusList::before{
+.herePlusList::before {
+  position: absolute;
+  content: "~";
+  color: #872330;
+  font-weight: 700;
+  left: -5%;
+}
+
+.textAboutNextWilla {
+  color: #5c5141;
+  font-weight: 500;
+  text-align: center;
+  max-width: 212px;
+  margin: 0 auto;
+}
+
+.swiperW {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+  margin: 0 43px;
+}
+
+.wrapperW {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 40px;
+  position: relative;
+  gap: 100px;
+  transition: all 0.5s ease;
+}
+
+.btnSlideWillaPrev, .btnSlideWillaNext{
     position: absolute;
-    content: '~';
-    color: #872330;
-    font-weight: 700;
-    left: -5%;
+    top: 31%;
 }
 
-.textAboutNextWilla{
-    color: #5C5141;
-    font-weight: 500;
-    text-align: center;
-    max-width: 212px;
+.btnSlideWillaPrev{
+    left: 5%;
+}
+.btnSlideWillaNext{
+    right: 5%;
+}
+
+@media (min-width: 1158px) {
+  .titleOurWilla {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+
+  .titleWillaFrst {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .textAboutWillaFrst {
+    font-size: 20px;
+    max-width: 900px;
     margin: 0 auto;
-}
+    margin-bottom: 40px;
+  }
 
-@media (min-width:1158px){
-    .titleOurWilla{
-        font-size: 38px;
-        margin-bottom: 40px;
-    }
+  .wrapperWillaDetails {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+  }
 
-    .titleWillaFrst{
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
-
-    .textAboutWillaFrst{
-        font-size: 20px;
-        max-width: 900px;
-        margin: 0 auto;
-        margin-bottom: 40px;
-    }
-
-    .wrapperWillaDetails{
-        display: flex;
-        gap: 100px;
-        justify-content: center;
-    }
-
-    .textAboutNextWilla{
-        font-size: 18px;
-        max-width: 100%;
-    }
+  .textAboutNextWilla {
+    font-size: 18px;
+    max-width: 100%;
+  }
 }
