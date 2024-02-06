@@ -9,12 +9,15 @@
     font-weight: 500;
     font-family: 'Montserrat';
     max-width: 300px;
+    line-height: 2;
 }
 
 .jfIMG{
     display: inline-block;
     max-width: 50px;
     max-height: 25px;
+    vertical-align: middle;
+    margin: 0 5px;
 }
 
 .formBtn{

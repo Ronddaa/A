@@ -6,15 +6,13 @@
 }
 
 .aboutMainText {
-  display: inline;
   text-transform: uppercase;
   color: #5c5141;
   line-height: 2;
-  text-align: center;
   font-weight: 500;
   font-size: 15px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  text-align: center;
 }
 
 .imgBetweenText {
@@ -24,6 +22,10 @@
   margin: auto;
   float: none;
   vertical-align: middle;
+}
+
+.wrapperTeacher {
+  margin-top: 50px;
 }
 
 .imgAboutIntensive {
