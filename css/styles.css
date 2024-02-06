@@ -15,6 +15,10 @@
 @import url(./shedule.css);
 @import url(./swiper.css);
 
+.programDesc{
+  display: none;
+}
+
 .container {
   /* Контейнер для моб. версии */
   max-width: 375px;
@@ -36,5 +40,9 @@
   .container {
     /* Контейнер для комп. версии */
     max-width: 1440px;
+  }
+
+  .programDesc{
+    display: block;
   }
 }

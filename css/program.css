@@ -12,7 +12,7 @@
 }
 
 .programCard {
-  width: 159px;
+  min-width: 159px;
   min-height: 200px;
   border-radius: 10px;
   position: relative;
@@ -143,6 +143,14 @@
   background-size: cover;
   background-position: center;
 }
+
+.wrapperProgramCardMobile ul {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+
 
 @media (min-width: 1158px) {
   .titleProgram {
