@@ -21,8 +21,12 @@
                     <li class="mainNavList"><a href="#footer" class="anchorNavHeader">Контакти</a></li>
                 </ul>
             </nav>
-            <button class="mainConsultationHeaderBtn" type="button" id="mainConsultationBtn">Залишились питання?</button>
+            <button class="mainConsultationHeaderBtn" type="button" id="mainConsultationHeaderBtn">Залишились питання?</button>
             <svg class="burgerMenu" width="48" height="48"><use href="./img/icons.svg#icon-burger-menu"></use></svg>
+        </div>
+
+        <div class="wrapperBurgerMenu">
+            
         </div>
     </header>
     <main class="main">
@@ -449,7 +453,7 @@
                         <img loading="lazy" class="photoInstImg" src="img/myInst3.webp" alt="Me" width="360" height="400">
                     </li>
                 </ul>
-                <button class="linkToInstBtn" type="button">ПЕРЕЙТИ</button>
+                <a href="https://www.instagram.com/nastya.matushevska/" target="_blank" class="linkToInstBtn" type="button">ПЕРЕЙТИ</a>
             </div>
         </section>
     </main>
@@ -479,8 +483,21 @@
             </ul>
         </div>
     </footer>
+
+    <div class="wrapperFormWindow" id="wrapperFormWindow">
+        <div class="modalWindow">
+            <svg class="close" id="closeBtnID" width="15" height="15"><use href="./img/icons.svg#icon-close"></use></svg>
+            <h2 class="titleFormWindow">Забронювати місце</h2>
+            <p class="textFormWindow">Ми звʼяжемось з вами протягом 24 годин!</p>
+            <input class="modalInputC" type="text" id="formNameID" placeholder="Імʼя">
+            <input class="modalInputC" type="text" id="formPhoneID" placeholder="Номер телефону">
+            <input class="modalInputC" type="text" id="formMailID" placeholder="Електронна пошта">
+            <button class="mainConsultationBtnModal" id="mainConsultationBtnModal">ЗАБРОНЮВАТИ</button>
+        </div>
+    </div>
     
 <script type="module" src="./index.js"></script>
 <script type="module" src="./programSwiper.js"></script>
+<script type="module" src="./form.js"></script>
 </body>
 </html>
