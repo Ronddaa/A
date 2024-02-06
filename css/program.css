@@ -150,7 +150,32 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.swiperP {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
 
+.swiper-wrapperP {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 40px;
+  position: relative;
+  gap: 80px;
+  transition: all 0.5s ease;
+}
+
+.paginationSwiperP {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  gap: 50px;
+}
 
 @media (min-width: 1158px) {
   .titleProgram {

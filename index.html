@@ -9,7 +9,7 @@
 <body class="body">
     <header class="header" id="header">
         <div class="container wrapperHeader">
-            <svg class="mainLogo" width="50" height="50"><use href="img/icons.svg#icon-A"></use></svg>
+            <svg class="mainLogo" width="50" height="50"><use href="./img/icons.svg#icon-A"></use></svg>
             <nav class="navHeader">
                 <ul class="mainNavHeader">
                     <li class="mainNavList"><a href="#aboutIntensive" class="anchorNavHeader">Про інтенсив</a></li>
@@ -22,7 +22,7 @@
                 </ul>
             </nav>
             <button class="mainConsultationHeaderBtn" type="button" id="mainConsultationBtn">Залишились питання?</button>
-            <svg class="burgerMenu" width="48" height="48"><use href="img/icons.svg#icon-burger-menu"></use></svg>
+            <svg class="burgerMenu" width="48" height="48"><use href="./img/icons.svg#icon-burger-menu"></use></svg>
         </div>
     </header>
     <main class="main">
@@ -32,8 +32,8 @@
                 <h2 class="scndMainTitle">(тілесно-психологічна група)</h2>
                 <p class="textUnderMainTitle">з гештальт-терапевтом та сексологом  Анастасією Матюшевською</p>
                 <div class="wrapperDateLocation">
-                    <span class="locationText"><svg class="iconLocation" width="20" height="20"><use href="img/icons.svg#icon-location"></use></svg>Лазурове узбережжя Франції</span>
-                    <p class="locationText">17-26 квітня 2024р<svg class="iconDate" width="28" height="28"><use href="img/icons.svg#icon-calendar"></use></svg></p>
+                    <span class="locationText"><svg class="iconLocation" width="20" height="20"><use href="./img/icons.svg#icon-location"></use></svg>Лазурове узбережжя Франції</span>
+                    <p class="locationText">17-26 квітня 2024р<svg class="iconDate" width="28" height="28"><use href="./img/icons.svg#icon-calendar"></use></svg></p>
                 </div>
                 <p class="bookingText">забронюй місце зараз і потрапляй на зустріч за найнижчу ціну!</p>
                 <div class="wrapperMainConsultation">
@@ -118,10 +118,10 @@
                 
             </div>
             <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </section>
-        <section class="program" id="program">
+        <section class="program" id="programMobile">
             <div class="container swiperP">
                 <h2 class="titleProgram">програма інтенсиву</h2>
                 <ul class="wrapperProgramCard swiper-wrapperP">
@@ -190,9 +190,13 @@
                         </ul>
                     </li>
                 </ul>
+                <div class="paginationSwiperP">
+                  <svg class="btnSlideProgram" id="btnSlideProgramPrev" width="16" height="18"><use href="./img/icons.svg#icon-doubleLeftArrow"></use></svg>
+                  <svg class="btnSlideProgram" id="btnSlideProgramNext" width="16" height="18"><use href="./img/icons.svg#icon-doubleRightArrow"></use></svg>
+                </div>
             </div>
         </section>
-        <section class="programDesc" id="program">
+        <section class="programDesc" id="programDesc">
             <div class="container swiperP">
                 <h2 class="titleProgram">програма інтенсиву</h2>
                 <ul class="wrapperProgramCard swiper-wrapperP">
@@ -452,7 +456,7 @@
 
     <footer class="footer" id="footer">
         <div class="container wrapperFooter">
-            <svg class="mainLogo mainLogoFooter" width="210" height="145"><use href="img/icons.svg#icon-A"></use></svg>
+            <svg class="mainLogo mainLogoFooter" width="210" height="145"><use href="./img/icons.svg#icon-A"></use></svg>
             <nav class="footerNav">
                 <ul class="wrapperNavLinks">
                     <li class="navLink"><a href="#aboutIntensive" class="linkToAnchor">Про інтенсив</a></li>
@@ -464,8 +468,8 @@
             </nav>
             <ul class="wrapperContactInfo">
                 <li class="linksToSocials">
-                    <a href="https://www.instagram.com/nastya.matushevska/" class="linkToSocialFooter"><svg class="socialLinkFooter" width="48" height="48"><use href="img/icons.svg#icon-instagram"></use></svg></a>
-                    <a href="https://web.telegram.org/a/#377363049" class="linkToSocialFooter"><svg class="socialLinkFooter" width="48" height="48"><use href="img/icons.svg#icon-telegram"></use></svg></a>
+                    <a href="https://www.instagram.com/nastya.matushevska/" class="linkToSocialFooter"><svg class="socialLinkFooter" width="48" height="48"><use href="./img/icons.svg#icon-instagram"></use></svg></a>
+                    <a href="https://web.telegram.org/a/#377363049" class="linkToSocialFooter"><svg class="socialLinkFooter" width="48" height="48"><use href="./img/icons.svg#icon-telegram"></use></svg></a>
                 </li>
                 <li class="wrapperContactInfoSocial">
                     <a href="mailto:garbaruk.psyfamily@gmail.com" class="linkToContact"> garbaruk.psyfamily@gmail.com</a>
@@ -477,5 +481,6 @@
     </footer>
     
 <script type="module" src="./index.js"></script>
+<script type="module" src="./programSwiper.js"></script>
 </body>
 </html>
