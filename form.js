@@ -21,3 +21,32 @@ document.querySelector('.wrapperFormWindow').addEventListener('click', function(
         this.classList.remove('openModalWindow');
     }
 });
+
+document.querySelector('#burgerMenu').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.add('openBurgerMenu')
+})
+document.querySelector('#closeBurgerBtn').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})
+
+document.querySelector('#closeAnchor1').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})
+document.querySelector('#closeAnchor2').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})
+document.querySelector('#closeAnchor3').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})
+document.querySelector('#closeAnchor4').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})
+document.querySelector('#closeAnchor5').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})
+document.querySelector('#closeAnchor6').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})
+document.querySelector('#closeAnchor7').addEventListener('click', function(){
+    document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
+})

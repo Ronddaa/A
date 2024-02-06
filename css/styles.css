@@ -51,7 +51,56 @@ body {
   }
 }
 
+.wrapperBurgerMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  width: 100%;
+  height: 100%;
+  background-color: #5c5141;
+  padding: 25px;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.2s, opacity 0.3s;
+}
 
+.wrapperLogoCloseBurger {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.burgerSVG {
+  fill: #f5f9fc;
+}
+
+.burgerNav {
+  text-align: center;
+}
+
+.burgerNavList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.burgerAnchorLink {
+  color: #f5f9fc;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.burgerAnchorLink:hover,
+.burgerAnchorLink:focus {
+  color: #bdc3af;
+}
+
+.openBurgerMenu {
+  opacity: 1;
+  transform: translateX(0%);
+}
 
 .wrapperFormWindow {
   display: none;
@@ -124,6 +173,6 @@ body {
   margin-top: 15px;
 }
 
-.openModalWindow{
+.openModalWindow {
   display: block;
 }
