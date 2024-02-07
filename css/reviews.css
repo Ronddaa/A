@@ -1,28 +1,61 @@
-.reviews{
-    background-color: #BDC3AF;
-    border-radius: 10px;
+.reviews {
+  background-color: #bdc3af;
+  border-radius: 10px;
 }
 
-.titleReviews{
-    font-size: 26px;
-    color: #5C5141;
-    margin-bottom: 20px;
-    text-align: center;
+.titleReviews {
+  font-size: 26px;
+  color: #5c5141;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.reviewsIMG{
-    border-radius: 10px;
+.reviewsIMG {
+  border-radius: 10px;
 }
 
-.titleUserComment{
-    font-size: 14px;
-    font-weight: 600;
-    color: #5C5141;
-    font-family: 'Montserrat';
+.titleUserComment {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5c5141;
+  font-family: "Montserrat";
+  margin-left: 40px;
 }
 
-@media (min-width:1158px){
-    .titleReviews{
-        font-size: 38px;
-    }
+.swiperR {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 60px;
+  position: relative;
+  gap: 100px;
+  transition: all 0.5s ease;
+}
+.wrapperR {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+  margin: 0 auto;
+  min-width: 306px;
+}
+
+.btnSlideReviewsPrev,
+.btnSlideReviewsNext {
+  position: absolute;
+  bottom: 30px;
+}
+
+.btnSlideReviewsNext {
+  right: 140px;
+}
+.btnSlideReviewsPrev {
+  left: 140px;
+}
+
+@media (min-width: 1158px) {
+  .titleReviews {
+    font-size: 38px;
+  }
 }

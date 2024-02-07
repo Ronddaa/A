@@ -365,7 +365,7 @@
                 <h2 class="titleAnswer">питання</h2>
                 <ul class="wrapperAnswer">
                     <li class="answerList">
-                        <h3 class="titleListAnswer">ЩО ВХОДИТЬ У ВАРТІСТЬ?</h3>
+                        <h3 class="titleListAnswer" id="answer1">ЩО ВХОДИТЬ У ВАРТІСТЬ?</h3>
                         <ul class="wrapperFrstAnserList">
                             <li>
                                 <ul class="frstAnswerList">
@@ -391,7 +391,7 @@
                         </ul>
                     </li>
                     <li class="answerList">
-                        <h3 class="titleListAnswer">ЩО НЕ ВХОДИТЬ У ВАРТІСТЬ?</h3>
+                        <h3 class="titleListAnswer" id="answer2">ЩО НЕ ВХОДИТЬ У ВАРТІСТЬ?</h3>
                         <ul class="wrapperScndAnswerList">
                             <li class="scndAnswerList">переліт</li>
                             <li class="scndAnswerList">трансфер</li>
@@ -400,14 +400,14 @@
                         </ul>
                     </li>
                     <li class="answerList">
-                        <h3 class="titleListAnswer">ВАРІАНТИ ОПЛАТИ</h3>
+                        <h3 class="titleListAnswer" id="answer3">ВАРІАНТИ ОПЛАТИ</h3>
                         <ul class="wrapperThdAnswerList">
                             <li class="thdAnswerList"><span><svg class="frstAnswerListDonwSVG" width="17" height="17"><use href="./img/icons.svg#icon-circle"></use></svg></span>Місце бронюється при передоплаті 500 євро. Залишок сплачується в день заїзду</li>
                             <li class="thdAnswerList"><span><svg class="frstAnswerListDonwSVG" width="17" height="17"><use href="./img/icons.svg#icon-circle"></use></svg></span>Можлива оплата частинами залишкової суми для вашої зручності, обговорюється індивідуально</li>
                         </ul>
                     </li>
                     <li class="answerList">
-                        <h3 class="titleListAnswer">ЩО ВЗЯТИ З СОБОЮ?</h3>
+                        <h3 class="titleListAnswer" id="answer4">ЩО ВЗЯТИ З СОБОЮ?</h3>
                         <ul class="wrapperFrthAnswerList">
                             <li class="frthAnswerList">кросівки</li>
                             <li class="frthAnswerList">одяг для занять йогою</li>
@@ -421,33 +421,35 @@
         <section class="reviews" id="reviews">
             <div class="container">
                 <h2 class="titleReviews">відгуки</h2>
-                <ul class="wrapperReviewsCard">
-                    <li class="reviewsCard">
+                <ul class="wrapperReviewsCard swiperR">
+                    <li class="reviewsCard wrapperR">
                         <h3 class="titleUserComment">Tsaryniuk Vita</h3>
                         <img loading="lazy" src="img/reviews1.webp" alt="comments" class="reviewsIMG" width="360" height="200">
                     </li>
-                    <li class="reviewsCard">
+                    <li class="reviewsCard wrapperR">
                         <h3 class="titleUserComment">Anastasia Sagaydakova</h3>
                         <img loading="lazy" src="img/reviews2.webp" alt="comments" class="reviewsIMG" width="360" height="200">
                     </li>
-                    <li class="reviewsCard">
+                    <li class="reviewsCard wrapperR">
                         <h3 class="titleUserComment">Таня Ілієва</h3>
                         <img loading="lazy" src="img/reviews3.webp" alt="comments" class="reviewsIMG" width="360" height="200">
                     </li>
-                    <li class="reviewsCard">
+                    <li class="reviewsCard wrapperR">
                         <h3 class="titleUserComment">Svitlana Hryhorieva</h3>
                         <img loading="lazy" src="img/reviews4.webp" alt="comments" class="reviewsIMG" width="360" height="200">
                     </li>
-                    <li class="reviewsCard">
+                    <li class="reviewsCard wrapperR">
                         <h3 class="titleUserComment">Oleksandra Vovchenko</h3>
                         <img loading="lazy" src="img/reviews5.webp" alt="comments" class="reviewsIMG" width="360" height="200">
                     </li>
-                    <li class="reviewsCard">
+                    <li class="reviewsCard wrapperR">
                         <h3 class="titleUserComment">Нина Зябликова</h3>
                         <img loading="lazy" src="img/reviews6.webp" alt="comments" class="reviewsIMG" width="360" height="200">
                     </li>
                 </ul>
             </div>
+            <svg class="btnSlideReviewsPrev" id="btnSlideReviewsPrev" width="16" height="18"><use href="./img/icons.svg#icon-doubleLeftArrow"></use></svg>
+            <svg class="btnSlideReviewsNext" id="btnSlideReviewsNext" width="16" height="18"><use href="./img/icons.svg#icon-doubleRightArrow"></use></svg>
         </section>
         <section class="justForm" id="justForm">
             <div class="container wrapperForm">
@@ -516,5 +518,7 @@
 <script type="module" src="./programSwiper.js"></script>
 <script type="module" src="./form.js"></script>
 <script type="module" src="./willaSwiper.js"></script>
+<script type="module" src="./reviewsSwiper.js"></script>
+<script type="module" src="./answer.js"></script>
 </body>
 </html>
