@@ -77,6 +77,10 @@
   height: 8px;
 }
 
+.body > .main > .shedule > .swiper-pagination{
+    bottom: 40px;
+}
+
 @media (min-width: 1158px) {
   .titleShedule {
     font-size: 38px;
