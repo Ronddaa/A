@@ -71,6 +71,7 @@ font-family: 'Montserrat';
 section{
   position: relative; /* делаем позиционирование в секциях, удобно для размещения абсолютных блоков */
   margin-bottom: 90px;
+  overflow: hidden;
 }
 
 @media (min-width:980px){
