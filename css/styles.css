@@ -49,6 +49,10 @@ body {
   .programDesc {
     display: block;
   }
+
+  .program {
+    display: none;
+  }
 }
 
 .wrapperBurgerMenu {

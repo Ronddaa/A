@@ -1321,3 +1321,29 @@ const sheduleSwiper = new Swiper('.swiper', {
     centeredSlides: 1,
 
 })
+
+function initSwiper() {
+  if (window.innerWidth >= 768) {
+    // Компьютерная версия
+    if (sheduleSwiper.params.slidesPerView !== 3) {
+      sheduleSwiper.params.slidesPerView = 3;
+      sheduleSwiper.params.spaceBetween = 40;
+      sheduleSwiper.params.centeredSlides = false;
+      sheduleSwiper.update(); // Обновляем Swiper после изменения параметров
+    }
+  } else {
+    // Мобильная версия
+    if (sheduleSwiper.params.slidesPerView !== 1) {
+      sheduleSwiper.params.slidesPerView = 1;
+      sheduleSwiper.params.spaceBetween = 20;
+      sheduleSwiper.params.centeredSlides = true;
+      sheduleSwiper.update(); // Обновляем Swiper после изменения параметров
+    }
+  }
+}
+
+// Вызываем функцию для первичной настройки Swiper
+initSwiper();
+
+// Слушаем событие изменения размера окна и вызываем функцию при изменении
+window.addEventListener('resize', initSwiper);

@@ -77,13 +77,40 @@
   height: 8px;
 }
 
-.body > .main > .shedule > .swiper-pagination{
-    bottom: 40px;
+.body > .main > .shedule > .swiper-pagination {
+  bottom: 40px;
 }
 
 @media (min-width: 1158px) {
   .titleShedule {
     font-size: 38px;
     margin-bottom: 40px;
+  }
+
+  .shedule {
+    padding: 50px 0;
+  }
+
+  .wrapperShedule {
+    overflow: hidden;
+  }
+
+  .dateList {
+    max-width: 360px;
+    min-height: 450px;
+    position: relative;
+  }
+  .titleDateCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+  }
+  .textDateCard {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

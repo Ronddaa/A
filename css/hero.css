@@ -92,6 +92,7 @@
 @media (min-width: 1158px) {
   .hero {
     padding: 104px 0 160px;
+    background-position: left;
   }
 
   .mainTitle {
