@@ -8,7 +8,7 @@
 .imgMe {
   position: relative;
   min-height: 318px;
-  min-width: 234px;
+  max-width: 234px;
   margin: 0 auto 20px;
   border-radius: 10px;
   overflow: hidden;
@@ -23,7 +23,7 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  animation: backgroundAnimation 15s infinite linear;
+  animation: backgroundAnimation 15s infinite;
   border-radius: 10px;
   z-index: 1; /* Для того чтобы ::before был выше основного контента */
   transition: background 1s ease; /* Плавный переход */

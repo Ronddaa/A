@@ -1,140 +1,142 @@
-.hero{
-    padding: 50px 0 60px;
-    color: #F5F9FC;
-    background-image: linear-gradient(rgba(20, 11, 3, 0.80), rgba(20, 11, 3, 0.80) ),
-     url(../img/Hero.webp);
-     background-size: cover;
-     background-repeat: no-repeat;
-    margin-top: -10px;
+.hero {
+  padding: 50px 0 60px;
+  color: #f5f9fc;
+  background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
+    url(../img/Hero.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  background-position: center;
 }
 
-.wrapperHero{
-    text-align: center;
+.wrapperHero {
+  text-align: center;
 }
 
-.mainTitle{
+.mainTitle {
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 193px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.scndMainTitle {
+  font-size: 16px;
+  color: #f5f9fc;
+  margin-bottom: 15px;
+}
+
+.textUnderMainTitle {
+  color: #bdc3af;
+  font-weight: 500;
+  margin-bottom: 42px;
+}
+
+.wrapperDateLocation {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconLocation {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.locationText {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  gap: 5px;
+}
+
+.locationText:first-child {
+  border-bottom: 1px solid #f5f9fc;
+  margin-bottom: 0;
+}
+
+.iconDate {
+  fill: transparent;
+}
+
+.bookingText {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.mainConsultationBtn {
+  padding: 13px 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: #bdc3af;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.mainConsultationBtn:hover,
+.mainConsultationBtn:focus {
+  background-color: #e0e6d3;
+}
+
+.bookingTextBtn {
+  text-transform: uppercase;
+}
+
+@media (min-width: 1158px) {
+  .hero {
+    padding: 104px 0 160px;
+  }
+
+  .mainTitle {
+    font-size: 38px;
+    max-width: 100%;
+  }
+
+  .scndMainTitle {
     font-size: 24px;
-    font-weight: 400;
-    max-width: 193px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 5px;
-}
+    margin-bottom: 22px;
+  }
 
-.scndMainTitle{
-    font-size: 16px;
-    color: #F5F9FC;
-    margin-bottom: 15px;
-}
+  .textUnderMainTitle {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
 
-.textUnderMainTitle{
-    color: #BDC3AF;
+  .locationText {
+    font-size: 20px;
+  }
+
+  .bookingText {
+    font-size: 22px;
     font-weight: 500;
-    margin-bottom: 42px;
-}
+  }
 
-.wrapperDateLocation{
+  .wrapperMainConsultation {
     display: flex;
-    flex-direction: column;
-}
-
-.iconLocation{
-    fill: rgba(255, 255, 255, 0.5);
-}
-
-.locationText{
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
-    padding: 10px 0;
-    gap: 5px;
-}
+    justify-content: center;
+    gap: 30px;
+  }
 
-.locationText:first-child{
-    border-bottom: 1px solid #F5F9FC;
-    margin-bottom: 0;
-}
+  .mainConsultationBtn {
+    font-size: 16px;
+    margin: auto 0;
+  }
 
-.iconDate{
-    fill: transparent;
-}
+  .bookingTextBtn {
+    max-width: 150px;
+    text-transform: none;
+  }
 
-.bookingText{
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
-.mainConsultationBtn{
-    padding: 13px 35px;
-    border: none;
-    border-radius: 10px;
-    background-color: #BDC3AF;
-    color: #000;
-    font-size: 12px;
+  .bookingTextBtn span {
     font-weight: 600;
-    margin-bottom: 15px;
-    transition: 0.3s;
-}
-
-.mainConsultationBtn:hover, .mainConsultationBtn:focus{
-    background-color: #E0E6D3;
-}
-
-.bookingTextBtn{
-    text-transform: uppercase;
-}
-
-@media (min-width: 1158px){
-    .hero{
-        padding: 104px 0 160px; 
-    }
-
-    .mainTitle{
-        font-size: 38px;
-        max-width: 100%;
-    }
-
-    .scndMainTitle{
-        font-size: 24px;
-        margin-bottom: 22px;
-    }
-
-    .textUnderMainTitle{
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
-
-    .locationText{
-        font-size: 20px;
-    }
-
-    .bookingText{
-        font-size: 22px;
-        font-weight: 500;
-    }
-
-    .wrapperMainConsultation{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-    }
-
-    .mainConsultationBtn{
-        font-size: 16px;
-        margin: auto 0;
-    }
-
-    .bookingTextBtn{
-        max-width: 150px;
-        text-transform: none;
-    }
-
-    .bookingTextBtn span{
-        font-weight: 600;
-    }
+  }
 }
