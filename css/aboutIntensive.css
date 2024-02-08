@@ -85,7 +85,7 @@
   background-color: #5c5141;
   bottom: -8px;
   left: 30px;
-  object-fit: cover;
+  
 }
 
 .teacherMe:last-child::before {
