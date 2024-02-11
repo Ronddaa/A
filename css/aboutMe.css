@@ -23,24 +23,28 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  animation: backgroundAnimation 15s infinite;
+  animation: backgroundAnimation 7s infinite;
   border-radius: 10px;
   z-index: 1; /* Для того чтобы ::before был выше основного контента */
   transition: background 1s ease; /* Плавный переход */
+  transform: translateX(100%);
 }
 
 @keyframes backgroundAnimation {
   0%,
   33% {
     background-image: url("../img/me1.webp");
+    transform: translateX(0%);
   }
   34%,
   68% {
     background-image: url("../img/me2.webp");
+    transform: translateX(0%);
   }
   69%,
   100% {
     background-image: url("../img/me3.webp");
+    transform: translateX(0%);
   }
 }
 
