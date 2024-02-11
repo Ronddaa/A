@@ -1335,7 +1335,7 @@ function initSwiper() {
     // Мобильная версия
     if (sheduleSwiper.params.slidesPerView !== 1) {
       sheduleSwiper.params.slidesPerView = 1;
-      sheduleSwiper.params.spaceBetween = 20;
+      sheduleSwiper.params.spaceBetween = 40;
       sheduleSwiper.params.centeredSlides = true;
       sheduleSwiper.update(); // Обновляем Swiper после изменения параметров
     }
