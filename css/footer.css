@@ -1,86 +1,88 @@
-footer{
-    background-color: #5C5141;
-    padding: 40px 0;
-    text-align: center;
+footer {
+  background-color: #5c5141;
+  padding: 40px 0;
+  text-align: center;
 }
 
-.mainLogoFooter{
-    max-width: 133px;
-    max-height: 92px;
-    margin-bottom: 40px;
+.mainLogoFooter {
+  max-width: 133px;
+  max-height: 92px;
+  margin-bottom: 40px;
 }
 
-.wrapperNavLinks{
+.wrapperNavLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.linkToAnchor {
+  color: #f5f9fc;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wrapperContactInfo {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+}
+
+.linkToContact {
+  color: #f5f9fc;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.wrapperContactInfoSocial {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.linksToSocials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.socialLinkFooter {
+  fill: #f5f9fc;
+  transition: 0.3s;
+}
+
+.socialLinkFooter:hover,
+.socialLinkFooter:focus {
+  fill: #bdc3af;
+}
+
+@media (min-width: 1158px) {
+  .wrapperFooter {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .mainLogoFooter {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .wrapperNavLinks {
+    text-align: left;
+  }
+
+  .navLink,
+  .linkToContact {
+    font-size: 18px;
+  }
+
+  .wrapperContactInfo {
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 40px;
-}
+    text-align: right;
+  }
 
-.linkToAnchor{
-    color: #F5F9FC;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.wrapperContactInfo{
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 40px;
-}
-
-.linkToContact{
-    color: #F5F9FC;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.wrapperContactInfoSocial{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.linksToSocials{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.socialLinkFooter{
-    fill: #F5F9FC;
-    transition: 0.3s;
-}
-
-.socialLinkFooter:hover, .socialLinkFooter:focus{
-    fill: #BDC3AF;
-}
-
-@media (min-width:1158px){
-    .wrapperFooter{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .mainLogoFooter{
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .wrapperNavLinks{
-        text-align: left;
-    }
-
-    .navLink, .linkToContact{
-        font-size: 18px;
-    }
-
-    .wrapperContactInfo{
-        flex-direction: column;
-        text-align: right;
-    }
-
-    .linksToSocials{
-        justify-content: right;
-    }
+  .linksToSocials {
+    justify-content: right;
+  }
 }
