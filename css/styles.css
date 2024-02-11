@@ -179,6 +179,40 @@ body {
   text-transform: uppercase;
 }
 
+.wrapperAnswerWindow {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 11, 3, 0.7);
+}
+
+.AnswerWindow {
+  position: absolute;
+  z-index: 1000;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  width: 327px;
+  height: 370px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f9fc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.textFormWindowAnswer {
+  max-width: 100%;
+}
+.okAnswerWindow {
+  margin: 0 auto;
+}
+
 .openModalWindow {
   display: block;
 }

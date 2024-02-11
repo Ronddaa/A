@@ -50,3 +50,20 @@ document.querySelector('#closeAnchor6').addEventListener('click', function(){
 document.querySelector('#closeAnchor7').addEventListener('click', function(){
     document.querySelector('#wrapperBurgerMenu').classList.remove('openBurgerMenu')
 })
+
+document.querySelector('#mainConsultationBtnModal').addEventListener('click', function(){
+    document.querySelector('#wrapperAnswerWindow').classList.add('openModalWindow')
+    document.querySelector('#wrapperFormWindow').classList.remove('openModalWindow')
+})
+document.querySelector('.wrapperAnswerWindow').addEventListener('click', function(event){
+    // Проверяем, является ли целевой элемент wrapperFormWindow
+    if (event.target.classList.contains('wrapperAnswerWindow')) {
+        // Удаляем класс openModalWindow, чтобы закрыть модальное окно
+        this.classList.remove('openModalWindow');
+    }
+});
+document.querySelector('#okBtn').addEventListener('click', function () {
+    document.querySelector('#wrapperAnswerWindow').classList.remove('openModalWindow')
+})
+
+

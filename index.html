@@ -500,7 +500,7 @@
     </footer>
 
     <div class="wrapperFormWindow" id="wrapperFormWindow">
-        <div class="modalWindow">
+        <form class="modalWindow">
             <svg class="close" id="closeBtnID" width="15" height="15"><use href="./img/icons.svg#icon-close"></use></svg>
             <h2 class="titleFormWindow">Забронювати місце</h2>
             <p class="textFormWindow">Ми звʼяжемось з вами протягом 24 годин!</p>
@@ -508,7 +508,16 @@
             <input class="modalInputC" type="text" id="formPhoneID" placeholder="Номер телефону">
             <input class="modalInputC" type="text" id="formMailID" placeholder="Електронна пошта">
             <button class="mainConsultationBtnModal" id="mainConsultationBtnModal">ЗАБРОНЮВАТИ</button>
-        </div>
+        </form>
+    </div>
+
+    <div class="wrapperAnswerWindow" id="wrapperAnswerWindow">
+        <article class="AnswerWindow">
+            <h2 class="titleFormWindow">ваша заявка прийнята!</h2>
+            <p class="textFormWindow textFormWindowAnswer">Очікуйте нашого дзвінка протягом 24 годин для підтвердження бронювання.</p>
+            <svg class="okAnswerWindow" width="90" height="90"><use href="./img/icons.svg#icon-ok"></use></svg>
+            <button class="mainConsultationBtnModal" id="okBtn">ДОБРЕ!</button>
+        </article>
     </div>
     
 <script type="module" src="./index.js"></script>
