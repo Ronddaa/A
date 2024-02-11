@@ -168,6 +168,10 @@
   transition: all 0.5s ease;
 }
 
+.swiper-slideP > ul{
+  transition: all 0.5s ease;
+}
+
 .paginationSwiperP {
   position: absolute;
   bottom: 0;
