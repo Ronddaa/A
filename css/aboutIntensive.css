@@ -1,3 +1,7 @@
+.aboutIntensive {
+  overflow: visible;
+}
+
 .titleAboutIntensive {
   color: #5c5141;
   font-size: 26px;
@@ -72,7 +76,7 @@
   width: 5px;
   height: 5px;
   background-color: #5c5141;
-  bottom: -10px;
+  bottom: -9px;
   left: 30px;
   border-radius: 50%;
 }
@@ -83,9 +87,8 @@
   width: 99%;
   height: 0.5px;
   background-color: #5c5141;
-  bottom: -8px;
+  bottom: -7px;
   left: 30px;
-  
 }
 
 .teacherMe:last-child::before {
@@ -94,7 +97,7 @@
   width: 5px;
   height: 5px;
   background-color: #5c5141;
-  bottom: -10px;
+  bottom: -9px;
   right: 20px;
   border-radius: 50%;
 }
@@ -105,7 +108,7 @@
   width: 105%;
   height: 0.5px;
   background-color: #5c5141;
-  bottom: -8px;
+  bottom: -7px;
   right: 20px;
   object-fit: cover;
 }
