@@ -1,111 +1,132 @@
-.titleAnswer{
-    font-size: 26px;
-    color: #5C5141;
-    margin-bottom: 20px;
-    text-align: center;
+.titleAnswer {
+  font-size: 26px;
+  color: #5c5141;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.wrapperAnswer{
-    text-align: center;
+.wrapperAnswer {
+  text-align: center;
 }
 
-.titleListAnswer{
-    font-size: 18px;
-    font-weight: 600;
-    color: #872330;
-    margin-bottom: 15px;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: 0.3s;
+.titleListAnswer {
+  font-size: 18px;
+  font-weight: 600;
+  color: #872330;
+  margin-bottom: 15px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+  font-family: "Montserrat";
 }
 
-.titleListAnswer:hover, .titleListAnswer:focus{
-    opacity: 1;
+.titleListAnswer:hover,
+.titleListAnswer:focus {
+  opacity: 1;
 }
 
-.frstAnswerList, .wrapperScndAnswerList, .wrapperFrthAnswerList{
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    margin-bottom: 20px;
-    max-width: 300px;
+.frstAnswerList,
+.wrapperScndAnswerList,
+.wrapperFrthAnswerList {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 20px;
+  max-width: 300px;
 }
 
-.wrapperScndAnswerList{
-    max-width: 320px;
+.wrapperScndAnswerList {
+  max-width: 320px;
 }
 
-.frstAnswerListUp, .scndAnswerList, .frthAnswerList{
-    font-size: 16px;
-    color: #5C5141;
-    position: relative;
-    margin-left: 65px;
-    text-align: left;
+.frstAnswerListUp,
+.scndAnswerList,
+.frthAnswerList {
+  font-size: 16px;
+  color: #5c5141;
+  position: relative;
+  margin-left: 65px;
+  text-align: left;
 }
 
-.frstAnswerListUp::before, .scndAnswerList::before, .frthAnswerList::before{
-    position: absolute;
-    content: '~';
-    color: #872330;
-    font-weight: 600;
-    margin-left: -15px;
+.frstAnswerListUp::before,
+.scndAnswerList::before,
+.frthAnswerList::before {
+  position: absolute;
+  content: "~";
+  color: #872330;
+  font-weight: 600;
+  margin-left: -15px;
 }
 
-.frstAnserListScnd, .wrapperThdAnswerList{
+.frstAnserListScnd,
+.wrapperThdAnswerList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.frstAnswerListDonw,
+.thdAnswerList {
+  font-size: 16px;
+  color: #5c5141;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+  max-width: 329px;
+}
+
+.thdAnswerList {
+  max-width: 320px;
+}
+
+.wrapperFrstAnserList,
+.wrapperScndAnswerList,
+.wrapperThdAnswerList,
+.wrapperFrthAnswerList {
+  display: none;
+}
+
+.openAnswer {
+  display: block;
+}
+
+@media (min-width: 1158px) {
+  .titleAnswer {
+    font-size: 38px;
+    margin-bottom: 50px;
+  }
+
+  .wrapperAnswer {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-bottom: 40px;
-}
+  }
 
-.frstAnswerListDonw, .thdAnswerList{
-    font-size: 16px;
-    color: #5C5141;
+  .answerList {
     display: flex;
-    gap: 10px;
-    text-align: left;
-    max-width: 329px;
-}
+    justify-content: space-between;
+    gap: 50px;
+  }
 
-.thdAnswerList{
-    max-width: 320px;
-}
+  .titleListAnswer {
+    font-size: 32px;
+  }
 
-.wrapperFrstAnserList, .wrapperScndAnswerList, .wrapperThdAnswerList, .wrapperFrthAnswerList{
-    display: none;
-}
+  .frstAnswerListUp,
+  .frstAnswerListDonw,
+  .scndAnswerList,
+  .thdAnswerList,
+  .frthAnswerList {
+    font-size: 24px;
+  }
 
-.openAnswer{
-    display: block;
-}
-
-@media (min-width:1158px){
-    .titleAnswer{
-        font-size: 38px;
-        margin-bottom: 50px;
-    }
-
-    .wrapperAnswer{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .answerList{
-        display: flex;
-        justify-content: space-between;
-        gap: 50px;
-    }
-
-    .titleListAnswer{
-        font-size: 32px;
-    }
-
-    .frstAnswerListUp, .frstAnswerListDonw, .scndAnswerList, .thdAnswerList, .frthAnswerList{
-        font-size: 24px;
-    }
-
-    .frstAnswerList, .wrapperScndAnswerList, .wrapperFrthAnswerList, .frstAnswerListDonw, .thdAnswerList{
-        max-width: 512px;
-    }
+  .frstAnswerList,
+  .wrapperScndAnswerList,
+  .wrapperFrthAnswerList,
+  .frstAnswerListDonw,
+  .thdAnswerList {
+    max-width: 512px;
+  }
 }

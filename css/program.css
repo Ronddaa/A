@@ -32,112 +32,112 @@
   width: 70%;
 }
 
-.programCard:first-child {
+.programCard1 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program1.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(2) {
+.programCard2 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program2.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(3) {
+.programCard3 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program3.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(4) {
+.programCard4 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program4.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(5) {
+.programCard5 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program5.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(6) {
+.programCard6 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program6.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(7) {
+.programCard7 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program7.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(8) {
+.programCard8 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program8.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(9) {
+.programCard9 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program9.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(10) {
+.programCard10 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program10.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(11) {
+.programCard11{
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program11.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(12) {
+.programCard12 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program12.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(13) {
+.programCard13 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program13.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(14) {
+.programCard14 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program14.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:nth-child(15) {
+.programCard15 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program15.webp);
   background-size: cover;
   background-position: center;
 }
 
-.programCard:last-child {
+.programCard16 {
   background-image: linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
     url(../img/program16.webp);
   background-size: cover;
