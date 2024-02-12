@@ -92,7 +92,7 @@
   .aboutMeList::after {
     position: absolute;
     content: "";
-    width: 55%;
+    width: 65%;
     height: 0.5px;
     background-color: #5c5141;
     bottom: 19.4%;
