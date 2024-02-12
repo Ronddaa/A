@@ -79,6 +79,7 @@
   bottom: -9px;
   left: 30px;
   border-radius: 50%;
+  z-index: 55;
 }
 
 .teacherMe:first-child::after {
@@ -88,6 +89,7 @@
   height: 0.5px;
   background-color: #5c5141;
   bottom: -7px;
+  z-index: 55;
   left: 30px;
 }
 
@@ -99,6 +101,7 @@
   background-color: #5c5141;
   bottom: -9px;
   right: 20px;
+  z-index: 55;
   border-radius: 50%;
 }
 
@@ -110,10 +113,15 @@
   background-color: #5c5141;
   bottom: -7px;
   right: 20px;
+  z-index: 55;
   object-fit: cover;
 }
 
 @media (min-width: 1158px) {
+
+  .aboutIntensive{
+    overflow: hidden;
+  }
   .titleAboutIntensive {
     font-size: 38px;
     margin-bottom: 50px;
@@ -172,19 +180,17 @@
     bottom: 32%;
     right: 30.8%;
     border-radius: 50%;
-    z-index: -1;
   }
 
   .womanText:first-child::after {
     position: absolute;
     content: "";
-    width: 80%;
+    width: 110%;
     height: 0.5px;
     background-color: #5c5141;
     bottom: 32.8%;
     right: 30.8%;
     object-fit: cover;
-    z-index: -1;
   }
 
   .womanText:last-child::before {
@@ -196,18 +202,16 @@
     bottom: 32%;
     left: 30.8%;
     border-radius: 50%;
-    z-index: -1;
   }
 
   .womanText:last-child::after {
     position: absolute;
     content: "";
-    width: 80%;
+    width: 110%;
     height: 0.5px;
     background-color: #5c5141;
     bottom: 32.8%;
     left: 30.8%;
     object-fit: cover;
-    z-index: -1;
   }
 }
