@@ -177,6 +177,12 @@ body {
   margin-top: 15px;
   color: #000;
   text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.mainConsultationBtnModal:hover,
+.mainConsultationBtnModal:focus {
+  background-color: #787c6e;
 }
 
 .wrapperAnswerWindow {
