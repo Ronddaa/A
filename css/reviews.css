@@ -15,12 +15,34 @@
   border-radius: 10px;
 }
 
+.reviewsIMG1 {
+  margin-left: 14px;
+}
+
+.reviewsIMG2{
+  margin-left: 9px;
+}
+
+.reviewsIMG3{
+  margin-left: 5px;
+}
+
 .titleUserComment {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   color: #5c5141;
   font-family: "Montserrat";
-  margin-left: 40px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.titleUserComment1{
+  margin-left: 30px;
+}
+
+.titleUserComment2{
+  margin-left: 10px;
 }
 
 .swiperR {
