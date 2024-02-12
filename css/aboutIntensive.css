@@ -142,6 +142,10 @@
     font-size: 24px;
   }
 
+  .imgAboutIntensive{
+    max-height: 278px;
+  }
+
   .womanTextIn {
     font-size: 54px;
   }
