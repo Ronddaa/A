@@ -1,5 +1,5 @@
 document.querySelector('#mainConsultationHeaderBtn').addEventListener('click', function(){
-    document.querySelector('#wrapperFormWindow').classList.add('openModalWindow')
+    document.querySelector('#wrapperQuestionWindow').classList.add('openModalWindow')
 })
 document.querySelector('#mainConsultationBtn2').addEventListener('click', function(){
     document.querySelector('#wrapperFormWindow').classList.add('openModalWindow')
@@ -64,6 +64,9 @@ document.querySelector('.wrapperAnswerWindow').addEventListener('click', functio
 });
 document.querySelector('#okBtn').addEventListener('click', function () {
     document.querySelector('#wrapperAnswerWindow').classList.remove('openModalWindow')
+})
+document.querySelector('#okBtn2').addEventListener('click', function () {
+    document.querySelector('#wrapperQuestionWindow').classList.remove('openModalWindow')
 })
 
 

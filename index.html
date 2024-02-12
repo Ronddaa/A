@@ -218,7 +218,7 @@
         <section class="programDesc" id="programDesc">
             <div class="container swiperP">
                 <h2 class="titleProgram">програма інтенсиву</h2>
-                <ul class="wrapperProgramCard swiper-wrapperP">
+                <ul class="wrapperProgramCard swiper-wrapperPDesc">
                     <li class="programCard swiper-slideP">
                         <h3 class="titleProgramCard">Три дводенки з Анастасією</h3>
                     </li>
@@ -268,6 +268,10 @@
                         <h3 class="titleProgramCard">Фоторепортаж зустрічей</h3>
                     </li>
                 </ul>
+            </div>
+            <div class="paginationSwiperPDesc">
+                <svg class="btnSlideProgramDesc" id="btnSlideProgramPrevDesc" width="35" height="35"><use href="./img/icons.svg#icon-doubleLeftArrow"></use></svg>
+                <svg class="btnSlideProgramDesc" id="btnSlideProgramNextDesc" width="35" height="35"><use href="./img/icons.svg#icon-doubleRightArrow"></use></svg>
             </div>
         </section>
         <section class="ourWilla" id="ourWilla">
@@ -516,7 +520,21 @@
             <h2 class="titleFormWindow">ваша заявка прийнята!</h2>
             <p class="textFormWindow textFormWindowAnswer">Очікуйте нашого дзвінка протягом 24 годин для підтвердження бронювання.</p>
             <svg class="okAnswerWindow" width="90" height="90"><use href="./img/icons.svg#icon-ok"></use></svg>
-            <button class="mainConsultationBtnModal" id="okBtn">ДОБРЕ!</button>
+            <button type="button" class="mainConsultationBtnModal" id="okBtn">ДОБРЕ!</button>
+        </article>
+    </div>
+
+    <div class="wrapperQuestionWindow" id="wrapperQuestionWindow">
+        <article class="questionWindow">
+            <h2 class="questionWindowText">Якщо у Вас залишились питання ви можете звʼязатись з нами особисто:</h2>
+            <div class="linksToSocialsQuestion">
+                <a href="https://www.instagram.com/nastya.matushevska/" class="linkToSocialFooter" target="_blank" name="instagram"><svg class="socialLinkQestion" width="48" height="48"><use href="./img/icons.svg#icon-instagramQ"></use></svg></a>
+                <a href="https://web.telegram.org/a/#377363049" class="linkToSocialFooter" name="telegram"><svg class="socialLinkQuestion" width="48" height="48"><use href="./img/icons.svg#icon-telegaQ"></use></svg></a>
+            </div>
+            <a href="mailto:garbaruk.psyfamily@gmail.com" class="linkToContactQ"> garbaruk.psyfamily@gmail.com</a>
+            <a href="tel:+380936576711" class="linkToContactQ">+38 (093) 657 6711</a>
+            <p class="linkToContactQ linkToContactQM">Графік роботи: з 10:00 до 20:00</p>
+            <button type="button" class="mainConsultationBtnModal" id="okBtn2">ДОБРЕ!</button>
         </article>
     </div>
     
@@ -527,5 +545,6 @@
 <script type="module" src="./reviewsSwiper.js"></script>
 <script type="module" src="./answer.js"></script>
 <script type="module" src="./telegram.js"></script>
+<script type="module" src="./programSlideDesc.js"></script>
 </body>
 </html>
