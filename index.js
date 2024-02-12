@@ -1303,10 +1303,6 @@ const sheduleSwiper = new Swiper('.swiper', {
     loop: false,
 
   // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
 
     pagination: {
         el: '.swiper-pagination',
@@ -1316,7 +1312,7 @@ const sheduleSwiper = new Swiper('.swiper', {
 
     slidesPerView: 1,
 
-    spaceBetween: 25,
+    spaceBetween: 40,
 
     centeredSlides: 1,
 
