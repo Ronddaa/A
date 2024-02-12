@@ -25,9 +25,6 @@ document.querySelector('#mainConsultationBtnModal').addEventListener('click',asy
     };
     
     await fetch(url, options)
-
- //console.log('sended');
- //console.log(JSON.stringify(auth));
 });
 
 

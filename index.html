@@ -504,9 +504,9 @@
             <svg class="close" id="closeBtnID" width="15" height="15"><use href="./img/icons.svg#icon-close"></use></svg>
             <h2 class="titleFormWindow">Забронювати місце</h2>
             <p class="textFormWindow">Ми звʼяжемось з вами протягом 24 годин!</p>
-            <input class="modalInputC" type="text" id="formNameID" placeholder="Імʼя">
-            <input class="modalInputC" type="text" id="formPhoneID" placeholder="Номер телефону">
-            <input class="modalInputC" type="text" id="formMailID" placeholder="Електронна пошта">
+            <input class="modalInputC" type="text" id="formNameID" placeholder="Імʼя" required>
+            <input class="modalInputC" type="text" id="formPhoneID" placeholder="Номер телефону" required>
+            <input class="modalInputC" type="email" id="formMailID" placeholder="Електронна пошта" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
             <button class="mainConsultationBtnModal" id="mainConsultationBtnModal">ЗАБРОНЮВАТИ</button>
         </form>
     </div>
