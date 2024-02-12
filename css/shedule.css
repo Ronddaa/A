@@ -12,7 +12,7 @@
 }
 
 .sheduleList {
-  padding: 0 15px;
+  
 }
 
 .dateList {
@@ -21,8 +21,6 @@
   background-position: center;
   text-align: center;
   border-radius: 10px;
-  max-width: 264px;
-  margin: 0 auto;
   margin-bottom: 20px;
 }
 
