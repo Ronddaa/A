@@ -4,6 +4,10 @@ footer {
   text-align: center;
 }
 
+.navLinkProgramDesc{
+    display: none;
+}
+
 .mainLogoFooter {
   max-width: 133px;
   max-height: 92px;
@@ -61,6 +65,14 @@ footer {
   .wrapperFooter {
     display: flex;
     justify-content: space-between;
+  }
+
+  .navLinkProgram{
+    display: none;
+  }
+
+  .navLinkProgramDesc{
+    display: inline-block;
   }
 
   .mainLogoFooter {

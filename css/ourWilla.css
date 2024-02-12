@@ -92,16 +92,17 @@
   transition: all 0.5s ease;
 }
 
-.btnSlideWillaPrev, .btnSlideWillaNext{
-    position: absolute;
-    top: 31%;
+.btnSlideWillaPrev,
+.btnSlideWillaNext {
+  position: absolute;
+  top: 31%;
 }
 
-.btnSlideWillaPrev{
-    left: 5%;
+.btnSlideWillaPrev {
+  left: 5%;
 }
-.btnSlideWillaNext{
-    right: 5%;
+.btnSlideWillaNext {
+  right: 5%;
 }
 
 @media (min-width: 1158px) {
@@ -125,11 +126,39 @@
   .wrapperWillaDetails {
     display: flex;
     gap: 100px;
-    justify-content: center;
+    justify-content: space-between;
+    position: relative;
   }
 
   .textAboutNextWilla {
     font-size: 18px;
     max-width: 100%;
+  }
+
+  .wrapperW {
+    max-width: 480px;
+    position: relative;
+    z-index: -1;
+  }
+
+  .willaIMG {
+    min-width: 460px;
+    min-height: 640px;
+  }
+
+  .willaPlus {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .btnSlideWillaPrev {
+    top: 91%;
+    left: 31%;
+    z-index: 55;
+  }
+
+  .btnSlideWillaNext {
+    top: 91%;
+    left: 35%;
+    z-index: 55;
   }
 }

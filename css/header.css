@@ -7,6 +7,10 @@ header{
     z-index: 888;
 }
 
+.mainNavListProgramDesc{
+    display: none;
+}
+
 .navHeader{
     display: none;
 }
@@ -26,6 +30,12 @@ header{
 }
 
 @media (min-width: 1158px){
+    .mainNavListProgramDesc{
+        display: inline-block;
+    }
+    .mainNavListProgram{
+        display: none;
+    }
     .burgerMenu{
         display: none;
     }   
