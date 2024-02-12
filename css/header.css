@@ -1,83 +1,88 @@
-header{
-    background-color: #5C5141;
-    border-radius: 0 0 10px 10px;
-    padding: 10px 0px;
-    position: sticky;
-    top: 0;
-    z-index: 888;
+header {
+  background-color: #5c5141;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 0px;
+  position: sticky;
+  top: 0;
+  z-index: 888;
 }
 
-.mainNavListProgramDesc{
+.mainNavListProgramDesc {
+  display: none;
+}
+
+.navHeader {
+  display: none;
+}
+
+.mainConsultationHeaderBtn {
+  display: none;
+}
+
+.wrapperHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.mainLogo,
+.burgerMenu {
+  fill: #fff;
+}
+
+@media (min-width: 1158px) {
+  .mainNavListProgramDesc {
+    display: inline-block;
+  }
+  .mainNavListProgram {
     display: none;
-}
-
-.navHeader{
+  }
+  .burgerMenu {
     display: none;
-}
+  }
+  .wrapperHeader{
+    align-items: center;
+  }
 
-.mainConsultationHeaderBtn{
-    display: none;
-}
-
-.wrapperHeader{
+  .navHeader {
     display: flex;
-    justify-content: space-between;
-    gap: 15px;
-}
+    align-items: center;
+  }
 
-.mainLogo, .burgerMenu{
-    fill: #fff;
-}
+  .mainNavHeader {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
 
-@media (min-width: 1158px){
-    .mainNavListProgramDesc{
-        display: inline-block;
-    }
-    .mainNavListProgram{
-        display: none;
-    }
-    .burgerMenu{
-        display: none;
-    }   
+  .anchorNavHeader {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0;
+    transition: 0.3s;
+  }
 
-    .navHeader{
-        display: flex;
-        align-items: center;
-    }
+  .anchorNavHeader:hover {
+    color: #b9b9b9;
+  }
 
-    .mainNavHeader{
-        display: flex;
-        gap: 30px;
-        align-items: center;
-    }
+  .mainConsultationHeaderBtn {
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    max-width: 177px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+    letter-spacing: 1.2px;
+    height: 38px;
+  }
 
-    .anchorNavHeader{
-        font-size: 16px;
-        color: #fff;
-        padding: 10px 0;
-        transition: 0.3s;
-    }
-
-    .anchorNavHeader:hover{
-        color: #b9b9b9;
-    }
-
-    .mainConsultationHeaderBtn{
-        display: block;
-        border: 1px solid #fff;
-        border-radius: 10px;
-        background-color: transparent;
-        color: #fff;
-        max-width: 154px;
-        font-weight: 500;
-        font-size: 12px;
-        text-transform: uppercase;
-        transition: 0.3s;
-        letter-spacing: 1.2px;
-    }
-
-    .mainConsultationHeaderBtn:hover, .mainConsultationHeaderBtn:focus{
-        background-color: #E0E6D3;
-        color: #000;
-    }
+  .mainConsultationHeaderBtn:hover,
+  .mainConsultationHeaderBtn:focus {
+    background-color: #e0e6d3;
+    color: #000;
+  }
 }

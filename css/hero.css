@@ -91,10 +91,13 @@
 
 @media (min-width: 1158px) {
   .hero {
-    padding: 104px 0 160px;
+    padding: 150px 0 160px;
     background-position: left;
-    background-image:linear-gradient(rgba(20, 11, 3, 0.8), rgba(20, 11, 3, 0.8)),
-     url(../img/Hero.webp);
+    background-image: linear-gradient(
+        rgba(20, 11, 3, 0.8),
+        rgba(20, 11, 3, 0.8)
+      ),
+      url(../img/h.webp);
   }
 
   .mainTitle {
