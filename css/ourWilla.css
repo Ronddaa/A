@@ -135,10 +135,15 @@
     max-width: 100%;
   }
 
+  .swiperW {
+    margin: 0;
+  }
+
   .wrapperW {
     max-width: 480px;
     position: relative;
     z-index: -1;
+    gap: 200px;
   }
 
   .willaIMG {
@@ -148,11 +153,12 @@
 
   .willaPlus {
     background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
   }
 
   .btnSlideWillaPrev,
   .btnSlideWillaNext {
-    top: 57%;
+    top: 92%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 55;
