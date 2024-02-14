@@ -273,3 +273,7 @@ body {
 .openModalWindow {
   display: block;
 }
+
+.btnSlideProgram, .btnSlideProgramDesc, .btnSlideWillaPrev, .btnSlideWillaNext, .btnSlideWillaPrevDesc, .btnSlideWillaNextDesc, .btnSlideReviewsPrev, .btnSlideReviewsNext{
+  cursor: pointer;
+}
