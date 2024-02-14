@@ -182,7 +182,7 @@ body {
 
 .mainConsultationBtnModal:hover,
 .mainConsultationBtnModal:focus {
-  background-color: #787c6e;
+  background-color: #E0E6D3;
 }
 
 .wrapperAnswerWindow {
@@ -253,6 +253,7 @@ body {
   font-weight: 500;
   color: #5c5141;
   text-transform: none;
+  margin: 0 auto;
   margin-bottom: 10px;
   max-width: 248px;
 }
@@ -267,6 +268,7 @@ body {
 }
 
 .linkToContactQM {
+  color: #5c5141;
   margin-bottom: 15px;
 }
 
@@ -274,6 +276,6 @@ body {
   display: block;
 }
 
-.btnSlideProgram, .btnSlideProgramDesc, .btnSlideWillaPrev, .btnSlideWillaNext, .btnSlideWillaPrevDesc, .btnSlideWillaNextDesc, .btnSlideReviewsPrev, .btnSlideReviewsNext{
+.close, .btnSlideProgram, .btnSlideProgramDesc, .btnSlideWillaPrev, .btnSlideWillaNext, .btnSlideWillaPrevDesc, .btnSlideWillaNextDesc, .btnSlideReviewsPrev, .btnSlideReviewsNext{
   cursor: pointer;
 }
