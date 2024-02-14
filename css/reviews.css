@@ -80,4 +80,12 @@
   .titleReviews {
     font-size: 38px;
   }
+
+  .btnSlideReviewsPrev{
+    left: 45%;
+  }
+
+  .btnSlideReviewsNext{
+    right: 45%;
+  }
 }
