@@ -91,7 +91,7 @@
 
 @media (min-width: 1158px) {
   .hero {
-    padding: 150px 0 160px;
+    padding: 180px 0 230px;
     background-position: left;
     background-image: linear-gradient(
         rgba(20, 11, 3, 0.8),
@@ -101,26 +101,42 @@
   }
 
   .mainTitle {
-    font-size: 38px;
+    font-size: 52px;
     max-width: 100%;
   }
 
   .scndMainTitle {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 22px;
   }
 
   .textUnderMainTitle {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 50px;
+    position: relative;
+  }
+
+  .textUnderMainTitle::after {
+    content: "";
+    width: 800px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 460%;
+    transform: translate(-50%, -50%);
   }
 
   .locationText {
-    font-size: 20px;
+    font-size: 22px;
+  }
+
+  .locationText:first-child {
+    border: none;
   }
 
   .bookingText {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 500;
   }
 
@@ -133,7 +149,7 @@
   }
 
   .mainConsultationBtn {
-    font-size: 16px;
+    font-size: 18px;
     margin: auto 0;
   }
 
