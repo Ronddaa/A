@@ -132,4 +132,8 @@
   .thdAnswerList {
     max-width: 512px;
   }
+
+  .wrapperFrthAnswerList{
+    margin: 0 auto;
+  }
 }

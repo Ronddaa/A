@@ -10,6 +10,9 @@ document.querySelector('#reservedBtn').addEventListener('click', function(){
 document.querySelector('#formBtn').addEventListener('click', function(){
     document.querySelector('#wrapperFormWindow').classList.add('openModalWindow')
 })
+document.querySelector('#formBtn2').addEventListener('click', function(){
+    document.querySelector('#wrapperFormWindow').classList.add('openModalWindow')
+})
 
 document.querySelector('#closeBtnID').addEventListener('click', function(){
     document.querySelector('#wrapperFormWindow').classList.remove('openModalWindow')
