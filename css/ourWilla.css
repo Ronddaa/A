@@ -105,10 +105,33 @@
   right: 5%;
 }
 
+.btnSlideWillaPrevDesc,
+.btnSlideWillaNextDesc {
+  display: none;
+}
+
 @media (min-width: 1158px) {
   .titleOurWilla {
     font-size: 38px;
     margin-bottom: 40px;
+  }
+
+  .btnSlideWillaPrev,
+  .btnSlideWillaNext {
+    display: none;
+  }
+  .btnSlideWillaPrevDesc,
+  .btnSlideWillaNextDesc {
+    display: block;
+    position: absolute;
+    z-index: 55;
+    top: 57%;
+  }
+  .btnSlideWillaPrevDesc {
+    left: 15%;
+  }
+  .btnSlideWillaNextDesc {
+    right: 16%;
   }
 
   .titleWillaFrst {
