@@ -82,6 +82,7 @@ footer {
 
   .wrapperNavLinks {
     text-align: left;
+    gap: 20px;
   }
 
   .navLink,
