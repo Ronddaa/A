@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.bookingTextBtn p {
+  font-weight: 700;
+}
+
 .mainTitle {
   font-size: 24px;
   font-weight: 400;
