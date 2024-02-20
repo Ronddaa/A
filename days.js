@@ -2,9 +2,9 @@ function formatDays(count) {
     if (count === 1) {
         return "день";
     } else if (count >= 2 && count <= 4) {
-        return "дня";
+        return "дні";
     } else {
-        return "дней";
+        return "днів";
     }
 }
 
