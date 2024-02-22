@@ -8,21 +8,23 @@ function formatDays(count) {
     }
 }
 
-function decreaseDays() {
+function decreaseDays(daysLeft) {
     // Получаем доступ к элементу p
     let daysElement = document.getElementById('days');
-    // Получаем текущее значение числа дней
-    let currentDays = parseInt(daysElement.innerText);
+    // Устанавливаем начальное количество дней
+    daysElement.innerText = `${daysLeft} ${formatDays(daysLeft)}`;
 
-    // Уменьшаем значение на 1 и обновляем текст в элементе p
-    currentDays--;
-    daysElement.innerText = `${currentDays} ${formatDays(currentDays)}`;
-
-    // Если остался хотя бы один день, планируем вызов этой же функции на следующий день
-    if (currentDays > 0) {
-        setTimeout(decreaseDays, 24 * 60 * 60 * 1000); // Вызываем функцию через 24 часа (в миллисекундах)
-    }
+    // Уменьшаем количество дней на 1 каждые 24 часа
+    let interval = setInterval(function() {
+        daysLeft--;
+        daysElement.innerText = `${daysLeft} ${formatDays(daysLeft)}`;
+        
+        // Если достигнуто значение 0, останавливаем интервал
+        if (daysLeft === 0) {
+            clearInterval(interval);
+        }
+    }, 24 * 60 * 60 * 1000); // Вызываем функцию каждые 24 часа (в миллисекундах)
 }
 
-// Вызываем функцию decreaseDays() для первого запуска
-decreaseDays();
+// Вызываем функцию decreaseDays() для первого запуска с начальным значением 7 дней
+decreaseDays(7);
